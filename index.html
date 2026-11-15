@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fano classification</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <h1 class="dim-title" id="dim-title"></h1>
+</div>
+
+<main id="view"></main>
+
+<div class="backdrop" id="sheet-bd">
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="statement"></div>
+</div>
+
+<div class="backdrop" id="def-bd">
+  <div class="defcard" role="dialog" aria-modal="true" aria-label="definition"></div>
+</div>
+
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['\\(', '\\)']],
+    displayMath: [['\\[', '\\]']],
+    processEscapes: true,
+    packages: {'[+]': ['ams']}
+  },
+  svg: { fontCache: 'global' },
+  startup: { typeset: false }
+};
+</script>
+<script src="vendor/tex-svg.js"></script>
+<script src="families.js"></script>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
