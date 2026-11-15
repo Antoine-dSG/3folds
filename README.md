@@ -1,8 +1,5 @@
 # Fano classification — the visual account
 
-Open **`index.html`** in a browser. No server, no build step, no internet needed:
-MathJax is vendored, so mathematics renders offline.
-
 ## The stage
 
 One persistent view. Four discs — **1 Fano curves**, **2 del Pezzo surfaces**,
